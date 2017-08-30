@@ -5,7 +5,8 @@ A Docker image for [Livy, the REST Spark Server](https://github.com/cloudera/liv
 ## Running Livy Server 
 
 The docker image must first be build by calling 
-`docker build -t docker-livy ."
+
+`docker build -t docker-livy .`
 
 The image can be then i be run with 
 
