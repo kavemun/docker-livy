@@ -1,9 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER kavemun <kahmun.chow@gmail.com>
 
-ENV DISTRO ubuntu
-ENV CODENAME trusty
- 
 # Add R list
 RUN echo 'deb http://cran.rstudio.com/bin/linux/ubuntu trusty/' | \
     sudo tee -a /etc/apt/sources.list.d/r.list && \
